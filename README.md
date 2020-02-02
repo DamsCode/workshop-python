@@ -4,7 +4,7 @@
 0. [Introduction](README.md)
 1. [Déclaration de variables et affichage](declaration.md)
 2. [Les listes, tuples et dictionnaires](listupledico.md)
-3. [Les conditions](conditions)
+3. [Les conditions](conditions.md)
 4. [Les boucles](boucles.md)
 5. [les fonctions](fonctions.md)
 6. [les exception](exceptions.md)

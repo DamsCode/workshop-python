@@ -1,4 +1,4 @@
-#for
+# for
 L'instruction for que propose Python est un peu différente de celle que l'on peut trouver en C ou en Pascal. Au lieu de toujours itérer sur une suite arithmétique de nombres (comme en Pascal), ou de donner à l'utilisateur la possibilité de définir le pas d'itération et la condition de fin (comme en C), l'instruction for en Python itère sur les éléments d'une séquence (qui peut être une liste, une chaîne de caractères…), dans l'ordre dans lequel ils apparaissent dans la séquence. Par exemple :
 ```
 words = ['cat', 'window', 'defenestrate']
@@ -6,14 +6,14 @@ for w in words:
     print(w, len(w))
 ```
 
-#la fonction range
+# la fonction range
 Si vous devez itérer sur une suite de nombres, la fonction native range() est faite pour cela. Elle génère des suites arithmétiques :
 ```
 for i in range(5):
     print(i)
 ```
 
-#while 
+# while 
 L'instruction while est utilisée pour exécuter des instructions de manière répétée tant qu'une expression est vraie :
 
 ```
@@ -40,7 +40,7 @@ for n in range(2, 10):
         # loop fell through without finding a factor
         print(n, 'is a prime number')
 ```
-#continue 
+# continue 
 L'instruction continue, également empruntée au C, fait passer la boucle à son itération suivante :
 
 ```
@@ -51,7 +51,7 @@ for num in range(2, 10):
     print("Found a number", num)
 ```
 
-#pass
+# pass
 L'instruction pass ne fait rien. Elle peut être utilisée lorsqu'une instruction est nécessaire pour fournir une syntaxe correcte, mais qu'aucune action ne doit être effectuée. Par exemple :
 ```
 def initlog(*args):
