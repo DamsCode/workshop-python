@@ -10,7 +10,7 @@ class Dog:
         self.tricks.append(trick)
 ```
 
-#Héritage
+# Héritage
 Ici une classe peut être hérité d'une où plusieurs classes
 ```
 class DerivedClassName(Base1, Base2, Base3):
